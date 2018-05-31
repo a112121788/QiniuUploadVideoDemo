@@ -112,6 +112,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @objc func uploadVideo() {
         let token = "TOKEN" //填写您自己的
+
         let configuration = QNConfiguration.build { builder in
             let dns = QNDnsManager([QNResolver.system()], networkInfo: QNNetworkInfo.normal())
             builder?.useHttps = false
@@ -126,9 +127,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         })
         
         upManager?.putFile(videoURL?.relativePath, key: nil, token: token, complete: { (info, key,resp) in
-            print(info!)
-            print(key!)
-            print(resp!)
+            print(info)
+            print(key)
+            print(resp)
             if(info?.statusCode == 200 && resp != nil){
                 print("success")
             }else{
