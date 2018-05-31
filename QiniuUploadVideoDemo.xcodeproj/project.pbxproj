@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F76C8D2D202D3770C7A13E0 /* Pods_QiniuUploadVideoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E2DD7BC2B72C45D4C9A9FF /* Pods_QiniuUploadVideoDemo.framework */; };
 		974087AE20C05FF9006328CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974087AD20C05FF9006328CC /* AppDelegate.swift */; };
 		974087B020C05FF9006328CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974087AF20C05FF9006328CC /* ViewController.swift */; };
 		974087B320C05FF9006328CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974087B120C05FF9006328CC /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33260D7F3C825D59835A35BF /* Pods-QiniuUploadVideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuUploadVideoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuUploadVideoDemo/Pods-QiniuUploadVideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		34E2DD7BC2B72C45D4C9A9FF /* Pods_QiniuUploadVideoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiniuUploadVideoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633B7885BD6555DBCD0F56A3 /* Pods-QiniuUploadVideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuUploadVideoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuUploadVideoDemo/Pods-QiniuUploadVideoDemo.release.xcconfig"; sourceTree = "<group>"; };
 		974087AA20C05FF9006328CC /* QiniuUploadVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiniuUploadVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		974087AD20C05FF9006328CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		974087AF20C05FF9006328CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,7 @@
 		974087B420C05FFA006328CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		974087B720C05FFA006328CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		974087B920C05FFA006328CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97521BC720C061A100404BB7 /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F76C8D2D202D3770C7A13E0 /* Pods_QiniuUploadVideoDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,8 @@
 			children = (
 				974087AC20C05FF9006328CC /* QiniuUploadVideoDemo */,
 				974087AB20C05FF9006328CC /* Products */,
+				F62ABD54AEED2B444189238E /* Pods */,
+				CE415459EC2D76E0FFC9BF82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +68,26 @@
 				974087B420C05FFA006328CC /* Assets.xcassets */,
 				974087B620C05FFA006328CC /* LaunchScreen.storyboard */,
 				974087B920C05FFA006328CC /* Info.plist */,
+				97521BC720C061A100404BB7 /* Demo-Bridging-Header.h */,
 			);
 			path = QiniuUploadVideoDemo;
+			sourceTree = "<group>";
+		};
+		CE415459EC2D76E0FFC9BF82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34E2DD7BC2B72C45D4C9A9FF /* Pods_QiniuUploadVideoDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F62ABD54AEED2B444189238E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33260D7F3C825D59835A35BF /* Pods-QiniuUploadVideoDemo.debug.xcconfig */,
+				633B7885BD6555DBCD0F56A3 /* Pods-QiniuUploadVideoDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +97,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 974087BC20C05FFA006328CC /* Build configuration list for PBXNativeTarget "QiniuUploadVideoDemo" */;
 			buildPhases = (
+				3F039EA3F7C95C19FD335C6F /* [CP] Check Pods Manifest.lock */,
 				974087A620C05FF9006328CC /* Sources */,
 				974087A720C05FF9006328CC /* Frameworks */,
 				974087A820C05FF9006328CC /* Resources */,
+				7D3E39C933056C2D49661B68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +157,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F039EA3F7C95C19FD335C6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiniuUploadVideoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D3E39C933056C2D49661B68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QiniuUploadVideoDemo/Pods-QiniuUploadVideoDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HappyDNS/HappyDNS.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/VGPlayer/VGPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HappyDNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Qiniu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VGPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiniuUploadVideoDemo/Pods-QiniuUploadVideoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		974087A620C05FF9006328CC /* Sources */ = {
@@ -278,6 +355,7 @@
 		};
 		974087BD20C05FFA006328CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33260D7F3C825D59835A35BF /* Pods-QiniuUploadVideoDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +375,7 @@
 		};
 		974087BE20C05FFA006328CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633B7885BD6555DBCD0F56A3 /* Pods-QiniuUploadVideoDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

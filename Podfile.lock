@@ -1,0 +1,41 @@
+PODS:
+  - HappyDNS (0.3.14)
+  - Material (2.15.0):
+    - Material/Core (= 2.15.0)
+  - Material/Core (2.15.0):
+    - Motion (~> 1.3.0)
+  - Motion (1.3.5):
+    - Motion/Core (= 1.3.5)
+  - Motion/Core (1.3.5)
+  - Qiniu (7.2.4):
+    - HappyDNS (~> 0.3)
+  - SnapKit (4.0.0)
+  - VGPlayer (0.2.0):
+    - SnapKit (~> 4.0.0)
+
+DEPENDENCIES:
+  - Material
+  - Qiniu (~> 7.2)
+  - SnapKit
+  - VGPlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HappyDNS
+    - Material
+    - Motion
+    - Qiniu
+    - SnapKit
+    - VGPlayer
+
+SPEC CHECKSUMS:
+  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
+  Material: 00e32bb5e61b3f749044897b2d93acd8bf33faa4
+  Motion: 9f74d115d7f72bb5380a8e3cde2f8a1fc898ac36
+  Qiniu: 65384bca1cdb0480a68d9b9b8f54db53418c0355
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  VGPlayer: a1787135559aa3b9201ebdc733ee283315492289
+
+PODFILE CHECKSUM: 96f994aead3a9f9b845aab91dc82a32d89eb3740
+
+COCOAPODS: 1.5.2
