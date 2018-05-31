@@ -9,5 +9,7 @@
 #ifndef Demo_Bridging_Header_h
 #define Demo_Bridging_Header_h
 
-#endif /* Demo_Bridging_Header_h */
 #import <Qiniu/QiniuSDK.h>
+#import "HappyDNS/HappyDNS.h"
+#endif /* Demo_Bridging_Header_h */
+

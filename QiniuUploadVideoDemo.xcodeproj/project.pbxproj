@@ -356,6 +356,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaoshuaiepng.QiniuUploadVideoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QiniuUploadVideoDemo/Demo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -376,6 +377,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaoshuaiepng.QiniuUploadVideoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QiniuUploadVideoDemo/Demo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
