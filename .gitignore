@@ -1,0 +1,14 @@
+*.pbxuser
+*.xccheckout
+#*.xcbkptlist
+#*.xcscheme
+#*.xcworkspacedata
+*.xcuserstate
+build/
+Pods/
+.DS_Store
+._.*
+xcuserdata
+DerivedData/
+.idea/
+iOSInjectionProject/
