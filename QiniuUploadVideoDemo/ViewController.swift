@@ -13,6 +13,8 @@ import AssetsLibrary
 import AVKit
 import AVFoundation
 
+import Toast_Swift
+
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     
@@ -36,6 +38,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     func initViews(){
+        self.view.makeToast("This is a piece of toast")
         // 视频 上传
         self.view.addSubview(player.displayView)
         self.view.addSubview(selectt_video_btn)

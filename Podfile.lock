@@ -10,6 +10,7 @@ PODS:
   - Qiniu (7.2.4):
     - HappyDNS (~> 0.3)
   - SnapKit (4.0.0)
+  - Toast-Swift (3.0.1)
   - VGPlayer (0.2.0):
     - SnapKit (~> 4.0.0)
 
@@ -17,6 +18,7 @@ DEPENDENCIES:
   - Material
   - Qiniu (~> 7.2)
   - SnapKit
+  - Toast-Swift (~> 3.0.1)
   - VGPlayer
 
 SPEC REPOS:
@@ -26,6 +28,7 @@ SPEC REPOS:
     - Motion
     - Qiniu
     - SnapKit
+    - Toast-Swift
     - VGPlayer
 
 SPEC CHECKSUMS:
@@ -34,8 +37,9 @@ SPEC CHECKSUMS:
   Motion: 9f74d115d7f72bb5380a8e3cde2f8a1fc898ac36
   Qiniu: 65384bca1cdb0480a68d9b9b8f54db53418c0355
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
   VGPlayer: a1787135559aa3b9201ebdc733ee283315492289
 
-PODFILE CHECKSUM: 96f994aead3a9f9b845aab91dc82a32d89eb3740
+PODFILE CHECKSUM: b16f1c6b6d59daa3fb4fb3b9ceb2565d5a459075
 
 COCOAPODS: 1.5.2
